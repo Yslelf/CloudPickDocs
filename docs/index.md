@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 查看文档
-      link: /install/感谢
+      link: /01.安装教程/01.读前须知/01.感谢
     - theme: alt
       text: 反馈问题
       link: https://github.com/ZHI-CCC/CloudPickWiki/issues  # 外部链接

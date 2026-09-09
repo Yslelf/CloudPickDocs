@@ -88,20 +88,24 @@ export default defineConfig({
       { text: "首页", link: "/" },
       {
         text: "指导",
-        link: "/install/感谢",
-        activeMatch: "/(01.安装教程|simplefunction)/",
+        link: "/01.安装教程/01.读前须知/01.感谢",
+        activeMatch: "/01.安装教程/",
       },
       { 
         text: "UI界面", 
-        link: "/ui/说在前面", 
-        activeMatch: "/(03.UI界面|js)/"
+        link: "/03.UI界面/01.UI界面/01.说在前面",
+        activeMatch: "/03.UI界面/"
       },
       {
         text: "控件",
-        link: "/controls",
-        activeMatch: "/controls",
+        link: "/controls/",
+        activeMatch: "/controls/",
       },
-      { text: "API", link: "/develop/说在前面", activeMatch: "/98.开发/" },
+      {
+        text: "API",
+        link: "/98.开发/01.API说明/01.说在前面",
+        activeMatch: "/98.开发/",
+      },
     ],
   },
 });
