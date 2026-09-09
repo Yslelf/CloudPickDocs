@@ -101,6 +101,11 @@ export default defineConfig({
         link: "/ui/说在前面", 
         activeMatch: "/03.UI界面/" 
       },
+      {
+        text: "控件",
+        link: "/controls",
+        activeMatch: "/controls",
+      },
       { 
         text: "模型", 
         link: "/model/说在前面", 
