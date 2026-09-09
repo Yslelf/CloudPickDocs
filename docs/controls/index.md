@@ -1,9 +1,8 @@
 ---
 title: 控件
-date: 2026-09-09 23:45:00
+date: 2026-09-09 23:55:00
 permalink: /controls
 article: false
-sidebar: false
 pageStyle: default
 ---
 
@@ -16,27 +15,27 @@ pageStyle: default
 ## 布局容器
 
 <div class="control-grid">
-  <a class="control-card" href="./ui/控件列表.html#grid-网格容器">
+  <a class="control-card" href="./layout/grid.html">
     <span class="control-icon">▦</span>
     <span class="control-info"><strong>Grid</strong><small>使用行和列组织复杂界面，也可以让子控件相互叠放。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#stackpanel-堆叠容器">
+  <a class="control-card" href="./layout/stack-panel.html">
     <span class="control-icon">☷</span>
     <span class="control-info"><strong>StackPanel</strong><small>将子控件沿水平或垂直方向依次排列。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#wrappanel-换行容器">
+  <a class="control-card" href="./layout/wrap-panel.html">
     <span class="control-icon">↵</span>
     <span class="control-info"><strong>WrapPanel</strong><small>顺序排列子控件，并在空间不足时自动换行。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#scrollview-滚动框容器">
+  <a class="control-card" href="./layout/scroll-view.html">
     <span class="control-icon">↕</span>
     <span class="control-info"><strong>ScrollView</strong><small>在内容超出显示区域时提供滚动浏览能力。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#border-边框容器">
+  <a class="control-card" href="./layout/border.html">
     <span class="control-icon">□</span>
     <span class="control-info"><strong>Border</strong><small>为单个子控件添加背景、边框和圆角。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#canvas-画布容器">
+  <a class="control-card" href="./layout/canvas.html">
     <span class="control-icon">⌖</span>
     <span class="control-info"><strong>Canvas</strong><small>使用绝对坐标自由放置子控件。</small></span>
   </a>
@@ -45,15 +44,15 @@ pageStyle: default
 ## 文本与输入
 
 <div class="control-grid">
-  <a class="control-card" href="./ui/控件列表.html#textblock-文本块">
+  <a class="control-card" href="./input/text-block.html">
     <span class="control-icon">T</span>
     <span class="control-info"><strong>TextBlock</strong><small>显示普通文本、富文本和打字机文本。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#button-按钮">
+  <a class="control-card" href="./input/button.html">
     <span class="control-icon">◉</span>
     <span class="control-info"><strong>Button</strong><small>接收点击操作并执行对应事件。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#textbox-文本框">
+  <a class="control-card" href="./input/text-box.html">
     <span class="control-icon">⌨</span>
     <span class="control-info"><strong>TextBox</strong><small>接收和编辑用户输入的文本。</small></span>
   </a>
@@ -62,19 +61,19 @@ pageStyle: default
 ## 数据与游戏内容
 
 <div class="control-grid">
-  <a class="control-card" href="./ui/控件列表.html#progressbar-进度条">
+  <a class="control-card" href="./game/progress-bar.html">
     <span class="control-icon">▰</span>
     <span class="control-info"><strong>ProgressBar</strong><small>显示加载进度、血量或任务完成度。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#slotview-槽位视图">
+  <a class="control-card" href="./game/slot-view.html">
     <span class="control-icon">▣</span>
     <span class="control-info"><strong>SlotView</strong><small>显示并装饰游戏中的物品栏槽位。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#itemview-物品视图">
+  <a class="control-card" href="./game/item-view.html">
     <span class="control-icon">◇</span>
     <span class="control-info"><strong>ItemView</strong><small>在界面中渲染指定物品。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#entityview-实体视图">
+  <a class="control-card" href="./game/entity-view.html">
     <span class="control-icon">♙</span>
     <span class="control-info"><strong>EntityView</strong><small>在界面中渲染玩家或其他三维实体。</small></span>
   </a>
@@ -83,19 +82,19 @@ pageStyle: default
 ## 图片、媒体与嵌入
 
 <div class="control-grid">
-  <a class="control-card" href="./ui/控件列表.html#image-图片">
+  <a class="control-card" href="./media/image.html">
     <span class="control-icon">▧</span>
     <span class="control-info"><strong>Image</strong><small>显示纹理或其他图片资源。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#mediaview-媒体视图">
+  <a class="control-card" href="./media/media-view.html">
     <span class="control-icon">▶</span>
     <span class="control-info"><strong>MediaView</strong><small>播放视频和音频媒体。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#spineview-骨骼动画视图">
+  <a class="control-card" href="./media/spine-view.html">
     <span class="control-icon">✦</span>
     <span class="control-info"><strong>SpineView</strong><small>加载并显示 Spine 骨骼动画。</small></span>
   </a>
-  <a class="control-card" href="./ui/控件列表.html#webview-浏览器视图">
+  <a class="control-card" href="./media/web-view.html">
     <span class="control-icon">◎</span>
     <span class="control-info"><strong>WebView</strong><small>在界面中嵌入并显示网页。</small></span>
   </a>
@@ -103,10 +102,10 @@ pageStyle: default
 
 ## 开始使用
 
-- 第一次编写界面，请先阅读[结构详解与新手教程](./03.UI界面/01.UI界面/02.结构详解-新手教程.md)。
-- 不确定该选哪个容器时，请阅读[选择布局容器](./03.UI界面/01.UI界面/09.选择布局容器.md)。
-- 查找尺寸、对齐、边距等通用配置时，请阅读[公共属性](./03.UI界面/01.UI界面/07.公共属性.md)。
-- 查看所有控件的完整 YAML 示例，请前往[控件列表](./03.UI界面/01.UI界面/04.控件列表.md)。
+- 第一次编写界面，请先阅读[结构详解与新手教程](../03.UI界面/01.UI界面/02.结构详解-新手教程.md)。
+- 不确定该选哪个容器时，请阅读[选择布局容器](../03.UI界面/01.UI界面/09.选择布局容器.md)。
+- 查找尺寸、对齐、边距等通用配置时，请阅读[公共属性](../03.UI界面/01.UI界面/07.公共属性.md)。
+- 查看所有控件的完整 YAML 示例，请前往[控件列表](../03.UI界面/01.UI界面/04.控件列表.md)。
 
 <style>
 .control-grid {

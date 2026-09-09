@@ -99,24 +99,14 @@ export default defineConfig({
       { 
         text: "UI界面", 
         link: "/ui/说在前面", 
-        activeMatch: "/03.UI界面/" 
+        activeMatch: "/(03.UI界面|js)/" 
       },
       {
         text: "控件",
         link: "/controls",
         activeMatch: "/controls",
       },
-      { 
-        text: "模型", 
-        link: "/model/说在前面", 
-        activeMatch: "/04.模型/" 
-      },
-      { 
-        text: "脚本", 
-        link: "/js/说在前面", 
-        activeMatch: "/99.JavaScript/" 
-      },
-      { text: "开发", link: "/develop/说在前面", activeMatch: "/98.开发/" },
+      { text: "API", link: "/develop/说在前面", activeMatch: "/98.开发/" },
     ],
   },
 });
