@@ -87,19 +87,14 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       {
-        text: "安装教程",
+        text: "指导",
         link: "/install/感谢",
-        activeMatch: "/01.安装教程/",
-      },
-      { 
-        text: "简单功能", 
-        link: "/simplefunction/贴图字体", 
-        activeMatch: "/02.简单功能/" 
+        activeMatch: "/(01.安装教程|simplefunction)/",
       },
       { 
         text: "UI界面", 
         link: "/ui/说在前面", 
-        activeMatch: "/(03.UI界面|js)/" 
+        activeMatch: "/(03.UI界面|js)/"
       },
       {
         text: "控件",
