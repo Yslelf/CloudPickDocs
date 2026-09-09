@@ -15,27 +15,27 @@ sidebarSort: 1
 ## 布局容器
 
 <div class="control-grid">
-  <a class="control-card" href="./layout/grid.html">
+  <a class="control-card" href="./01.布局容器/grid.html">
     <span class="control-icon">▦</span>
     <span class="control-info"><strong>Grid</strong><small>使用行和列组织复杂界面，也可以让子控件相互叠放。</small></span>
   </a>
-  <a class="control-card" href="./layout/stack-panel.html">
+  <a class="control-card" href="./01.布局容器/stack-panel.html">
     <span class="control-icon">☷</span>
     <span class="control-info"><strong>StackPanel</strong><small>将子控件沿水平或垂直方向依次排列。</small></span>
   </a>
-  <a class="control-card" href="./layout/wrap-panel.html">
+  <a class="control-card" href="./01.布局容器/wrap-panel.html">
     <span class="control-icon">↵</span>
     <span class="control-info"><strong>WrapPanel</strong><small>顺序排列子控件，并在空间不足时自动换行。</small></span>
   </a>
-  <a class="control-card" href="./layout/scroll-view.html">
+  <a class="control-card" href="./01.布局容器/scroll-view.html">
     <span class="control-icon">↕</span>
     <span class="control-info"><strong>ScrollView</strong><small>在内容超出显示区域时提供滚动浏览能力。</small></span>
   </a>
-  <a class="control-card" href="./layout/border.html">
+  <a class="control-card" href="./01.布局容器/border.html">
     <span class="control-icon">□</span>
     <span class="control-info"><strong>Border</strong><small>为单个子控件添加背景、边框和圆角。</small></span>
   </a>
-  <a class="control-card" href="./layout/canvas.html">
+  <a class="control-card" href="./01.布局容器/canvas.html">
     <span class="control-icon">⌖</span>
     <span class="control-info"><strong>Canvas</strong><small>使用绝对坐标自由放置子控件。</small></span>
   </a>
@@ -44,15 +44,15 @@ sidebarSort: 1
 ## 文本与输入
 
 <div class="control-grid">
-  <a class="control-card" href="./input/text-block.html">
+  <a class="control-card" href="./02.文本与输入/text-block.html">
     <span class="control-icon">T</span>
     <span class="control-info"><strong>TextBlock</strong><small>显示普通文本、富文本和打字机文本。</small></span>
   </a>
-  <a class="control-card" href="./input/button.html">
+  <a class="control-card" href="./02.文本与输入/button.html">
     <span class="control-icon">◉</span>
     <span class="control-info"><strong>Button</strong><small>接收点击操作并执行对应事件。</small></span>
   </a>
-  <a class="control-card" href="./input/text-box.html">
+  <a class="control-card" href="./02.文本与输入/text-box.html">
     <span class="control-icon">⌨</span>
     <span class="control-info"><strong>TextBox</strong><small>接收和编辑用户输入的文本。</small></span>
   </a>
@@ -61,19 +61,19 @@ sidebarSort: 1
 ## 数据与游戏内容
 
 <div class="control-grid">
-  <a class="control-card" href="./game/progress-bar.html">
+  <a class="control-card" href="./03.游戏内容/progress-bar.html">
     <span class="control-icon">▰</span>
     <span class="control-info"><strong>ProgressBar</strong><small>显示加载进度、血量或任务完成度。</small></span>
   </a>
-  <a class="control-card" href="./game/slot-view.html">
+  <a class="control-card" href="./03.游戏内容/slot-view.html">
     <span class="control-icon">▣</span>
     <span class="control-info"><strong>SlotView</strong><small>显示并装饰游戏中的物品栏槽位。</small></span>
   </a>
-  <a class="control-card" href="./game/item-view.html">
+  <a class="control-card" href="./03.游戏内容/item-view.html">
     <span class="control-icon">◇</span>
     <span class="control-info"><strong>ItemView</strong><small>在界面中渲染指定物品。</small></span>
   </a>
-  <a class="control-card" href="./game/entity-view.html">
+  <a class="control-card" href="./03.游戏内容/entity-view.html">
     <span class="control-icon">♙</span>
     <span class="control-info"><strong>EntityView</strong><small>在界面中渲染玩家或其他三维实体。</small></span>
   </a>
@@ -82,19 +82,19 @@ sidebarSort: 1
 ## 图片、媒体与嵌入
 
 <div class="control-grid">
-  <a class="control-card" href="./media/image.html">
+  <a class="control-card" href="./04.图片与媒体/image.html">
     <span class="control-icon">▧</span>
     <span class="control-info"><strong>Image</strong><small>显示纹理或其他图片资源。</small></span>
   </a>
-  <a class="control-card" href="./media/media-view.html">
+  <a class="control-card" href="./04.图片与媒体/media-view.html">
     <span class="control-icon">▶</span>
     <span class="control-info"><strong>MediaView</strong><small>播放视频和音频媒体。</small></span>
   </a>
-  <a class="control-card" href="./media/spine-view.html">
+  <a class="control-card" href="./04.图片与媒体/spine-view.html">
     <span class="control-icon">✦</span>
     <span class="control-info"><strong>SpineView</strong><small>加载并显示 Spine 骨骼动画。</small></span>
   </a>
-  <a class="control-card" href="./media/web-view.html">
+  <a class="control-card" href="./04.图片与媒体/web-view.html">
     <span class="control-icon">◎</span>
     <span class="control-info"><strong>WebView</strong><small>在界面中嵌入并显示网页。</small></span>
   </a>
