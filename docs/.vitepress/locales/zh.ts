@@ -98,7 +98,7 @@ export default defineConfig({
       },
       {
         text: "控件",
-        link: "/controls/",
+        link: "/controls/overview",
         activeMatch: "/controls/",
       },
       {

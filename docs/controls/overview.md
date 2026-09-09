@@ -1,9 +1,9 @@
 ---
-title: 控件
+title: 控件概览
 date: 2026-09-09 23:55:00
-permalink: /controls
 article: false
 pageStyle: default
+sidebarSort: 1
 ---
 
 # 控件

@@ -33,4 +33,4 @@ layout:
       Chat.send("按钮被点击了！")
 ```
 
-[返回控件总览](../index.md)
+[返回控件总览](../overview.md)
