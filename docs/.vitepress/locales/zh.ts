@@ -24,6 +24,7 @@ const teekConfig = defineTeekConfig({
   vitePlugins: {
     sidebarOption: {
       initItems: false,
+      collapsed: true,
     },
     autoFrontmatter: true, // 是否启用 autoFrontmatter 插件
     // autoFrontmatter 插件配置项

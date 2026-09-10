@@ -22,7 +22,7 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [Permalink(/* options */), Sidebar(/* options */)],
+    plugins: [Permalink(/* options */), Sidebar({ collapsed: true })],
     server: {
       allowedHosts: [
         'wiki.yunshimc.com',
